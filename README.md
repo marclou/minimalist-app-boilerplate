@@ -2,7 +2,7 @@
 
 Try the app [here](https://minimalist-app-boilerplate.herokuapp.com)
 
-[![Demo video](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)]()
+[![Demo video](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)
 
 
 ## Get started
