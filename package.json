@@ -2,10 +2,15 @@
   "name": "minimalist-app-boilerplate",
   "version": "1.0.0",
   "description": "a react app with a express api on the whole JWT authentication flow",
-  "main": "index.js",
+  "main": "server/src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run start\"",
+    "start": "cd server && npm run start",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Marc Lou",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
 }
