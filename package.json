@@ -1,0 +1,11 @@
+{
+  "name": "minimalist-app-boilerplate",
+  "version": "1.0.0",
+  "description": "a react app with a express api on the whole JWT authentication flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Lou",
+  "license": "ISC"
+}
