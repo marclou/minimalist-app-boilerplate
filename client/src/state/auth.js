@@ -55,7 +55,6 @@ export const refreshTokens = createAsyncThunk('auth/refreshToken', async ({ refr
 
     return { tokens: response };
   } catch (error) {
-    console.log(error.message);
     return thunkAPI.rejectWithValue(error.message);
   }
 });

@@ -28,6 +28,7 @@ function App() {
     } else if (accessTokenHasExpired) {
       dispatch(refreshTokens({ refreshToken: tokens.refresh.token }))
         .unwrap()
+        .catch((error) => console.log(error))
         .finally(() => setAccessTokenHasExpired(false));
     }
   }, []);
