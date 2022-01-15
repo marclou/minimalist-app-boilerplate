@@ -60,8 +60,9 @@ function PasswordForgot() {
                 </label>
                 <Field
                   name="email"
-                  type="text"
+                  type="email"
                   autoComplete="username"
+                  autoCapitalize="none"
                   className={`form-control w-full input input-bordered ${
                     errors.email && touched.email ? ' input-error' : ''
                   }`}
