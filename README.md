@@ -2,7 +2,7 @@
 
 Try the app (https://minimalist-app-boilerplate.herokuapp.com/)[here]
 
-![Demo video](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)
+[![Demo video](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)]()
 
 
 ## Get started
@@ -11,4 +11,5 @@ Try the app (https://minimalist-app-boilerplate.herokuapp.com/)[here]
 2. Run `npm install` on /client, /server AND / folders
 3. Check /client & /server READ.me(s) for instructions per app
 
+Note: each app (client & server) hs its own .env file
 Note: deployment scripts are for Heroku Dyno hosting
