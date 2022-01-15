@@ -1,6 +1,6 @@
 # A minimalist React App + Express API with basic JWT authentication flow
 
-Try the app (https://minimalist-app-boilerplate.herokuapp.com/)[here]
+Try the app [here](https://minimalist-app-boilerplate.herokuapp.com)
 
 [![Demo video](https://i.ibb.co/6Dr3tgr/ezgif-com-gif-maker.gif)]()
 
