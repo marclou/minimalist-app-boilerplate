@@ -1,6 +1,7 @@
 # A minimalist React App + Express API with basic JWT authentication flow
 
 Try the app [here](https://minimalist-app-boilerplate.herokuapp.com)
+(it might take 7 seconds to load as the free Heroku dyno I use for this app falls asleep when not used)
 
 
 ## Get started
