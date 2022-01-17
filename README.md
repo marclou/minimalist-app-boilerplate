@@ -10,5 +10,5 @@ Try the app [here](https://minimalist-app-boilerplate.herokuapp.com)
 2. Run `npm install` on /client, /server AND / folders
 3. Check /client & /server READ.me(s) for instructions per app
 
-Note: each app (client & server) hs its own .env file
+Note: each app (client & server) has its own .env file
 Note: deployment scripts are for Heroku Dyno hosting
