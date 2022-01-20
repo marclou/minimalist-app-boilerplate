@@ -6,7 +6,7 @@ This app is a stater for projects that require JWT-based login.
 
 1. Clone repo
 2. Create .env file with
-   - REACT_APP_API_URL
+   - REACT_APP_API_URL (http://192.168.100.25:8080/v1/)
    - REACT_APP_EMAIL_SUPPORT_TO
 3. Run `npm run install`
 
