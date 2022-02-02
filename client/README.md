@@ -15,5 +15,6 @@ This app is a stater for projects that require JWT-based login.
 
 1. Setup analytics with Plausible
 2. Add a customer chat support with Crisp
-4. Update the public files (logo, page titles, sitemap, meta, manifest)
-5. Setup Uptime Robot
+3. Update the public files (logo, page titles, sitemap, meta, manifest)
+4. Setup Uptime Robot
+5. Add domain to Google Search Console & request indexing
