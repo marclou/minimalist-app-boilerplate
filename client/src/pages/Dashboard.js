@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { toast } from 'react-toastify';
+import { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { toast } from "react-toastify";
 
-import { logout } from '../state/auth';
-import userService from '../services/users';
+import { logout } from "../state/auth";
+import userService from "../services/users";
 
 const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -41,11 +41,12 @@ const Dashboard = () => {
         </h2>
 
         <p>{user.email}</p>
-
         <p>
-          Access token expires <span className="font-bold">{new Date(tokens.access.expires).toLocaleString()}</span>
+          Access token expires{" "}
+          <span className="font-bold">
+            {new Date(tokens.access.expires).toLocaleString()}
+          </span>
         </p>
-
         <div className="overflow-x-auto pt-8">
           <table className="table w-full">
             <thead>
@@ -64,9 +65,13 @@ const Dashboard = () => {
             </tbody>
           </table>
         </div>
-
         <div className="justify-center card-actions">
-          <button className={`btn btn-outline btn-secondary btn-sm ${isLoading && 'loading'}`} onClick={handleLogout}>
+          <button
+            className={`btn btn-outline btn-secondary btn-sm ${
+              isLoading && "loading"
+            }`}
+            onClick={handleLogout}
+          >
             Log out
           </button>
         </div>

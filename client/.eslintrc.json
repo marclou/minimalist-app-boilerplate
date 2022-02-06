@@ -1,9 +1,0 @@
-{
-  "extends": ["react-app"],
-  "plugins": ["react-hooks"],
-  "rules": {
-    "no-console": "off",
-    "react-hooks/exhaustive-deps": "off",
-    "no-unused-vars": "warn"
-  }
-}
